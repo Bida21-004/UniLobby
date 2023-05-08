@@ -393,9 +393,11 @@ width: 66.33%;
         float: right;
       }
 
-      .cap,.tar,.cust{
+      .news1,.news2,.news3{
         width: 100%;
+        flex-basis: content;
       }
+
 
       .row{
         flex-direction: column;
@@ -409,9 +411,11 @@ width: 66.33%;
       float: none;
       width: 100%;
     }
-    .cap,.tar,.cust{
-      width: 100%;
-    }
+      .news1,.news2,.news3{
+        width: 100%;
+        flex-basis: content;
+      }
+
     .cust2{
         display: none;
     }
