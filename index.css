@@ -416,33 +416,7 @@ width: 66.33%;
         flex-basis: content;
       }
 
-    .cust2{
-        display: none;
-    }
-    .cust1{
-        padding-top:32px!important;
-        padding-bottom:32px!important;
-        float: right;
-        width: 100%; 
-    }
-    .tar1{
-        display: none;
-        }
-    .tar2{
-        padding-top:32px!important;
-        padding-bottom:32px!important;
-        float: right;
-        width: 100%;
-    }
-    .cap1{
-        display: none;
-        }
-    .cap2{
-        padding-top:32px!important;
-        padding-bottom:32px!important;
-        float: right;
-        width: 100%;
-    }
+    
     .text{
         width: 90%;
         color: #f44336;
