@@ -183,9 +183,9 @@ body {
       .header {
         display: none;
       }
-            .serv{
-          background-image: url("img/fuel.png");
-      }
+      .serv{
+        background-image: url("img/fuel.png");
+    }
     }
   
   @media screen and (max-width: 800px) {
@@ -201,7 +201,7 @@ body {
       .header {
         display: none;
       }
-            .serv{
-          background-image: url("img/fuel.png");
-      }
+      .serv{
+        background-image: url("img/fuel.png");
+    }
   }
