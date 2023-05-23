@@ -22,7 +22,7 @@ if(isset($_GET['logout'])){
   <title>UNI-LOBBY</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../R & I/new.css">
+  <link rel="stylesheet" href="new.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
   
 </head>
@@ -105,7 +105,7 @@ if(isset($_GET['logout'])){
   <div class="rightcolumn">
       <div class="profile_card">
         <h4>PROFILE</h4>
-        <div class="profile">User<br>Information<br><img src="../R & I/avatar3.png" class="avatar"><br>
+        <div class="profile">User<br>Information<br><img src="avatar3.png" class="avatar"><br>
           <a href="http://localhost/login.php"<button class="button">Update Info</button></a>
         </div>
       </div>
