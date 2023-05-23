@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
+  }
+  
+  /* Style the header */
+  .header {
+      background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../R & I/back.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    height: 630px;
+  }
+  .header2{
+  padding: 150px 0px 0px 0px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif !important;
+  color: #fff;
+}
+  .button{
+      border:none;
+      display:inline-block;
+      background-color:rgb(212, 47, 6)!important;
+      overflow:hidden;
+      text-decoration:none;
+      padding:12px 24px!important;
+      font-size:18px!important;
+      text-align:center;
+      cursor:pointer;
+      color: #000;
+      border-radius: 20px;
+      align-items: center;
+  }
+ 
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(148, 148, 148);
+    width: 100%;
+    position: fixed;
+  }
+  .links{float:right!important;
+  }
+
+  .logo{
+    float: left !important;;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    font-family: 'Poppins', sans-serif !important;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .about {
+    text-align: center;
+    font-family: 'Poppins', sans-serif !important;
+    float: top;
+    width: 100%;
+    padding: 15px;
+    height: 500px;
+    background-color: rgb(206, 206, 206);
+  }
+  .Footer {
+    text-align: center;
+    font-family: 'Poppins', sans-serif !important;
+    float: top;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(177, 177, 177);
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row1{
+  padding-top:32px!important;
+  padding-bottom:32px!important;
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row2{
+  padding-top:32px!important;
+  padding-bottom:32px!important;
+  float: left;
+  width: 66.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  ::placeholder{
+    color: #050505;
+  }
+
+  .input{
+    width: 100%;
+    
+  }
+  .container{
+    width: 100%;
+  }
+  .input2{
+    width: 100%;
+    height: 30px;
+    background: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: black;
+    border-radius: 10px;
+  }
+  .input3{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    font-size: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: #f44336 solid thin;
+    border-radius: 10px;
+  }
+
+  .send{
+    border-radius: 11px;
+    width: 80px;
+    height: 25px;
+    background-color: #ddd;
+  }
+
+  .Footer {
+    text-align: center;
+    font-family: 'Poppins', sans-serif !important;
+    float: top;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(177, 177, 177);
+  }
+  
+  .row2{
+    padding-top:32px!important;
+    padding-bottom:32px!important;
+    float: left;
+    width: 30%;
+    
+      }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+  .row1{
+    padding-top:32px!important;
+    padding-bottom:32px!important;
+    float: left;
+    width: 60%;
+  }
+  
+  .social {
+    width: 30px;
+    border-radius: 80px;
+    display: inline;
+    align-items: center;
+  }
+  .social:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .row1 {
+      width: 100%;
+    }
+    .row2 {
+        width: 100%;
+      }
+      .row3 {
+        width: 100%;
+      }
+  }
