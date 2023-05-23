@@ -11,7 +11,7 @@ body{
 }
 
 .header {
-  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../R & I/New.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("New.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 620px;
@@ -255,7 +255,7 @@ h6{
 }
 
 .news1{
-  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../R & I/ub.png");
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("ub.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10px;
@@ -265,7 +265,7 @@ h6{
 }
 
 .news2{
-  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../R & I/bac.png");
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("bac.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10px;
@@ -276,7 +276,7 @@ h6{
 }
 
 .news3{
-  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../R & I/biust.png");
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("biust.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10px;
