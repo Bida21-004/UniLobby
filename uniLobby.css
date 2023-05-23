@@ -11,7 +11,7 @@
   
   /* Style the header */
   .header {
-      background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../R & I/back.jpg");
+      background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("back.jpg");
       background-repeat: no-repeat;
       background-size: cover;
     height: 630px;
